@@ -1,0 +1,4 @@
+[
+    { "keys": ["shift+alt+d"], "command": "diffmerge" },
+    { "keys": ["ctrl+shift+]"], "command": "jumpout" }
+]
