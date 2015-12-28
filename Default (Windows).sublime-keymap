@@ -1,4 +1,10 @@
 [
     { "keys": ["shift+alt+d"], "command": "diffmerge" },
-    { "keys": ["ctrl+shift+]"], "command": "jumpout" }
+
+    { "keys": ["ctrl+shift+]"], "command": "jumpout" },
+
+    { "keys": ["ctrl+shift+alt+j"], "command": "move", "args": {"by": "characters", "forward": false} },
+    { "keys": ["ctrl+shift+alt+l"], "command": "move", "args": {"by": "characters", "forward": true} },
+    { "keys": ["ctrl+shift+alt+i"], "command": "move", "args": {"by": "lines", "forward": false} },
+    { "keys": ["ctrl+shift+alt+k"], "command": "move", "args": {"by": "lines", "forward": true} },
 ]
