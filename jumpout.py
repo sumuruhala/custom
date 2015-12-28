@@ -21,6 +21,9 @@ class JumpoutCommand(sublime_plugin.TextCommand):
         while ch not in stops:
             #print("DEBUG:: cursPnt = %d, char = %s"%(cursPnt, ch))
             cursPnt = cursPnt + 1
+            if cursPnt == view.size():
+                ch = "\n"
+                break
             ch = view.substr(cursPnt)
 
         if ch in END_BRACES:
