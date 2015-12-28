@@ -3,7 +3,7 @@ Sublime Text 3 plugins.
 
 jumpout.py ---
 Keys: "ctrl + shift + ]";
-Jump out of current braces or string. Braces include (), {}, and []; strings include "" and ''.
+Jump out of current braces or string. Braces include (), {}, and []; strings include " " and ' '.
 
 diffmerge.py ---
 Keys: "shift + alt + d";
