@@ -1,8 +1,5 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "telemetry.enableTelemetry": false,
-    "telemetry.enableCrashReporter": false,
-    //"cmake.useCMakeServer": false,
     "C_Cpp.clang_format_fallbackStyle": "Visual Studio",
     "C_Cpp.intelliSenseEngine": "Default",
     "window.zoomLevel": 0,
@@ -15,7 +12,6 @@
     },
     "diffEditor.renderSideBySide": false,
     "workbench.iconTheme": "vscode-icons",
-    "vsicons.dontShowNewVersionMessage": true,
     "git.autofetch": true,
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
