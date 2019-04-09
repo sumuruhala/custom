@@ -1,0 +1,22 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    //"cmake.useCMakeServer": false,
+    "C_Cpp.clang_format_fallbackStyle": "Visual Studio",
+    "C_Cpp.intelliSenseEngine": "Default",
+    "window.zoomLevel": 0,
+    "workbench.colorCustomizations": {
+        "editor.lineHighlightBackground": "#51465b",
+        "editorCursor.foreground": "#00FFAA",
+        "editor.selectionBackground": "#70667a",
+        "editor.selectionHighlightBackground": "#AA00BB",
+        "editor.findMatchHighlightBackground": "#2070C0"
+    },
+    "diffEditor.renderSideBySide": false,
+    "workbench.iconTheme": "vscode-icons",
+    "vsicons.dontShowNewVersionMessage": true,
+    "git.autofetch": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+}
